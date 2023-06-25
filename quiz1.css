@@ -1,0 +1,106 @@
+body
+{
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container
+{ /*for inner box*/
+    height: 330px;
+    width: 1000px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translatey(-50%);
+    background-color:azure ;
+    /*for border between title and inner box*/
+    padding: 20px;
+    border :1px solid black;
+    box-shadow:0 0 8px 3px azure;
+    border:25px;
+}
+.title
+{
+    font-size: 36px;
+    /*space between question and title*/
+    padding-bottom:20px;
+    text-align: center;
+    text-transform: uppercase;
+    color :#f18805;
+}
+.question{
+    font-size:22px;
+    background:#f18805;
+    /*for background size*/
+    padding: 20px;
+    border-radius:20px;
+    color:black;
+}
+.option
+{
+    width:470px;
+    /* for horizontal option */
+    display:inline-block;
+    /* top right bottom left */
+    padding:10px 0 10px 15px;
+    background-color: #d95d39;
+    margin:10px 0 10px 10px ;
+    border-radius:20px;
+    /*like hand mari varum*/
+    cursor: pointer;
+}
+.option:hover{
+    background-color: #f18805;
+    color:black;
+}
+.next-btn
+{
+    border:none;
+    outline:none;
+    background-color: #d95d39;
+    width:100px;
+    height:35px;
+    border-radius:20px;
+    cursor: pointer;
+    /* button comes to right side*/
+    float: right;
+    margin: 10px;
+}
+.next-btn:hover{
+    background-color: #f18805;
+    color:#f6f6f6
+}
+.container_result  {
+    font-size: 60px;
+    text-align: center;
+    color:#f0a202;
+    height: 330px;
+    width: 1000px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translatey(-50%);
+    background-color:azure ;
+    /*for border between title and inner box*/
+    padding: 20px;
+    border :1px solid black;
+    box-shadow:0 0 8px 3px azure;
+    border:25px;
+}
+#restart
+{
+    border:none;
+    outline:none;
+    background-color: #d95d39;
+    width:100px;
+    height:35px;
+    border-radius:20px;
+    cursor: pointer;
+    margin: 10px;  
+}
+#restart:hover{
+    background-color: #f18805;
+    color:#f6f6f6
+}
+
+
+    

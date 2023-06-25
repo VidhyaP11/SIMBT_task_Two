@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charaset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="icon" text="x-icon" href="vis.jpg">
+    <title>Quize App</title>
+    <link rel="stylesheet"  type="text/css" href="quiz1.css">
+</head>
+<body>
+    <br><br>
+    <marquee direction="right" style="color: aliceblue;">LET'S PRACTICE QUIZE</marquee>
+    <br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <marquee direction="left" style="color: aliceblue;" class="p">LET'S PRACTICE QUIZE</marquee>
+    <div class="container" id="container">
+        <div class="title">C Program Quiz</div>
+        <div id="question" class="question"></div>
+        <!--name for radio selection and class for css and id for javascript and giving the input inside the lable because to click anywhere in option name than in particular radio-->     
+        <label class ="option"><input type="radio" name="option" value="1"><span id="option1"></span></label>
+        <label class ="option"><input type="radio" name="option" value="2" ><span id="option2" ></span></label>
+        <label class ="option"><input type="radio" name="option" value="3"><span id="option3" ></span></label> 
+        <label class ="option"><input type="radio" name="option" value="4"><span id="option4" ></span></label> 
+        <button type="button" onclick="loadNextQuestion();" class="next-btn" id="nextQuestion">NEXT</button>
+        </div>
+    <!--container div ku apply panarathu container result  kum appply agum so namba apadi kudutu erukom-->
+        <div id="result" class="container_result" style="display:none;" >
+        <div id="score"></div>
+        <button id="restart" type="button" onclick="restartGame();">Restart</button>
+        </div> 
+    <script type="text/javascript" src="Questions.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    </body>
+    </html>
